@@ -312,6 +312,13 @@ aside div p:last-child {
     }
 }
 
+@media screen and (min-width: 800px) {
+
+    main {
+        display: flex;
+    }
+    
+}
 /* FOOTER */
 footer {
     background: rgb(53,53,53);
