@@ -75,6 +75,15 @@ header {
     top: 0;
     z-index: 10;
 }
+
+
+/*primo cambiamento*/
+@media  screen and ( min-width: 500px ) {
+    header div {
+        display: flex;
+    }
+}
+
 @media screen and (min-width:800px) {
     header {
         padding: 1.3em;
@@ -277,10 +286,24 @@ aside div {
     margin-bottom: 1em;
     padding: 1em;
 }
+
+/* seocndo cambiamento*/
+.aside {
+    background-color: white;
+    border: none;
+}
+
 aside div p:last-child {
     margin-bottom: 0;
     font-size: 0.8em;
     text-align: right;
+}
+
+@media  screen and (min-width: 500px) {
+
+    .aside{
+        display: flex;
+    }
 }
 
 
