@@ -306,6 +306,11 @@ aside div p:last-child {
     }
 }
 
+@media screen and ( min-width: 800px) {
+    .aside{
+        display: block;
+    }
+}
 
 /* FOOTER */
 footer {
